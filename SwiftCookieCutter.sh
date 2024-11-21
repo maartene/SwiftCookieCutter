@@ -141,6 +141,8 @@ git init
 git add .
 git commit -m "Initial commit"
 gh repo create $1 --public --source=. --remote=upstream
+git remote add origin https://github.com/maartene/$1.git
+git push -u origin main
 echo "✅ Successfully created git repo and GitHub repository"
 
 echo ""
