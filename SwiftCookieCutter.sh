@@ -141,7 +141,7 @@ git init
 git add .
 git commit -m "Initial commit"
 gh repo create $1 --public --source=. --remote=upstream
-echo "✅ Successfully created git repo and GitHub repository
+echo "✅ Successfully created git repo and GitHub repository"
 
 echo ""
 
